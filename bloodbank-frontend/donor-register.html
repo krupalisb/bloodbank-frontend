@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donor Register - Blood Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/1484/1484589.png">
+            <h1>Save Blood</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="search-donor.html">Search Donor</a>
+            <a href="request-blood.html">Request Blood</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="https://cdn-icons-png.flaticon.com/512/1484/1484589.png" class="big-logo">
+        <h2>Donor Registration</h2>
+        <p>Fill in your details to become a blood donor.</p>
+    </section>
+
+    <section class="form-section">
+        <form class="styled-form" id="donor-form">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+    <label>Email:</label>
+    <input type="email" name="email">
+    <label>Phone:</label>
+    <input type="text" name="phone">
+    <label>Blood Group:</label>
+    <select name="blood" required>
+        <option value="">Select</option>
+        <option>A+</option><option>A-</option><option>B+</option><option>B-</option>
+        <option>O+</option><option>O-</option><option>AB+</option><option>AB-</option>
+    </select>
+    <label>Address:</label>
+    <textarea name="address"></textarea>
+    <button type="submit" class="btn">Register</button>
+</form>
+
+    </section>
+
+    <footer>
+        <p>© 2025 Save Blood | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
